@@ -1,0 +1,75 @@
+.image-14-icon {
+  height: 59px;
+  width: 62px;
+  position: relative;
+  object-fit: cover;
+}
+.ui-ux {
+  margin: 0;
+}
+.je-obecn-znmou-container1,
+.ui-ux-container {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.ui-ux-container {
+  width: 168px;
+  height: 45px;
+  line-height: 35px;
+}
+.je-obecn-znmou-container1 {
+  margin-top: -10px;
+  height: 75px;
+  flex: 1;
+  line-height: 30px;
+  max-width: 100%;
+}
+.u-i-design-description-paragra {
+  align-self: stretch;
+  height: 65px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.frame-wrapper5,
+.image-14-parent,
+.u-i-design-description-paragra,
+.ui-ux-design-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ui-ux-design-parent {
+  align-self: stretch;
+  flex-direction: column;
+}
+.frame-wrapper5,
+.image-14-parent {
+  flex: 1;
+}
+.frame-wrapper5 {
+  flex-direction: column;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+  min-width: 468px;
+}
+.image-14-parent {
+  flex-direction: row;
+  gap: 27px;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  font-family: Poppins;
+}
+@media screen and (max-width: 825px) {
+  .frame-wrapper5 {
+    min-width: 100%;
+  }
+  .image-14-parent {
+    flex-wrap: wrap;
+  }
+}

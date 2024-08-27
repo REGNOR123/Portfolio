@@ -1,0 +1,124 @@
+.home4 {
+  text-decoration: none;
+  height: 30px;
+  position: relative;
+  line-height: 35px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 62px;
+}
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 6px 0 0;
+  color: #fff;
+}
+.front-end-skills8 {
+  margin: 0;
+}
+.front-end-skills7 {
+  text-decoration: none;
+  align-self: stretch;
+  height: 30px;
+  position: relative;
+  line-height: 35px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.skill-list1,
+.skill-list2 {
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 6px 0 0;
+  box-sizing: border-box;
+}
+.skill-list2 {
+  width: 136px;
+  padding: 1px 0 0;
+}
+.contact6 {
+  text-decoration: none;
+  width: 92px;
+  position: relative;
+  line-height: 35px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.skills1 {
+  margin: 0;
+  position: absolute;
+  top: 3px;
+  left: 1016px;
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Poppins;
+}
+.content-child {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #007ced;
+  width: 55px;
+}
+.akr3 {
+  text-decoration: none;
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  line-height: 37px;
+  color: inherit;
+  display: inline-block;
+  width: 100px;
+  height: 37px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.content1 {
+  height: 55px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.main1 {
+  width: 1786px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 60px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 35px;
+  color: #fff;
+  font-family: Ribeye;
+}
+@media screen and (max-width: 1200px) {
+  .main1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}
