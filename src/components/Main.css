@@ -14,8 +14,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-12xs) var(--padding-7xs) 0 0;
-  color: var(--color-white);
+  padding: 1px 6px 0 0;
+  color: #fff;
 }
 .front-end-skills8 {
   margin: 0;
@@ -38,12 +38,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-12xs) var(--padding-7xs) 0 0;
+  padding: 1px 6px 0 0;
   box-sizing: border-box;
 }
 .skill-list2 {
   width: 136px;
-  padding: var(--padding-12xs) 0 0;
+  padding: 1px 0 0;
 }
 .contact6 {
   text-decoration: none;
@@ -65,12 +65,12 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: 20px;
   max-width: 100%;
   text-align: left;
-  font-size: var(--font-size-lg);
-  color: var(--color-gray-400);
-  font-family: var(--font-poppins);
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Poppins;
 }
 .content-child {
   position: absolute;
@@ -79,7 +79,7 @@
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  background-color: var(--color-dodgerblue);
+  background-color: #007ced;
   width: 55px;
 }
 .akr3 {
@@ -107,18 +107,18 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-41xl);
+  padding: 0 60px;
   box-sizing: border-box;
   max-width: 100%;
   text-align: left;
-  font-size: var(--font-size-16xl);
-  color: var(--color-white);
-  font-family: var(--font-ribeye);
+  font-size: 35px;
+  color: #fff;
+  font-family: Ribeye;
 }
 @media screen and (max-width: 1200px) {
   .main1 {
-    padding-left: var(--padding-11xl);
-    padding-right: var(--padding-11xl);
+    padding-left: 30px;
+    padding-right: 30px;
     box-sizing: border-box;
   }
 }

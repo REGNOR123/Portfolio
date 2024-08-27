@@ -5,7 +5,7 @@
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  background-color: var(--color-dodgerblue);
+  background-color: #007ced;
   width: 55px;
 }
 .akr2 {
@@ -45,8 +45,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-12xs) var(--padding-7xs) 0 0;
-  color: var(--color-white);
+  padding: 1px 6px 0 0;
+  color: #fff;
 }
 .front-end-skills6 {
   margin: 0;
@@ -67,7 +67,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-12xs) var(--padding-7xs) 0 0;
+  padding: 1px 6px 0 0;
   box-sizing: border-box;
 }
 .back-end-skills4 {
@@ -87,7 +87,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-12xs) 0 0;
+  padding: 1px 0 0;
   box-sizing: border-box;
 }
 .contact5 {
@@ -107,18 +107,18 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: 20px;
   text-align: left;
-  font-size: var(--font-size-lg);
-  color: var(--color-gray-400);
-  font-family: var(--font-poppins);
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Poppins;
 }
 .frame-nav {
   margin: 0;
   width: 650px;
   flex-direction: column;
   justify-content: flex-start;
-  padding: var(--padding-9xs) 0 0;
+  padding: 4px 0 0;
   box-sizing: border-box;
 }
 .frame-header,
@@ -133,33 +133,33 @@
   flex: 1;
   flex-direction: row;
   justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .frame-header,
 .frame-parent3 {
   justify-content: flex-start;
   text-align: left;
-  color: var(--color-white);
+  color: #fff;
 }
 .frame-header {
   width: 1812px;
   flex-direction: row;
-  padding: 0 var(--padding-43xl);
+  padding: 0 62px;
   box-sizing: border-box;
-  font-size: var(--font-size-16xl);
-  font-family: var(--font-ribeye);
+  font-size: 35px;
+  font-family: Ribeye;
 }
 .frame-parent3 {
   align-self: stretch;
   flex-direction: column;
-  gap: var(--gap-34xl);
-  font-size: var(--font-size-36xl);
-  font-family: var(--font-poppins);
+  gap: 53px;
+  font-size: 55px;
+  font-family: Poppins;
 }
 @media screen and (max-width: 1250px) {
   .frame-header {
-    padding-left: var(--padding-12xl);
-    padding-right: var(--padding-12xl);
+    padding-left: 31px;
+    padding-right: 31px;
     box-sizing: border-box;
   }
 }
@@ -168,6 +168,6 @@
     display: none;
   }
   .frame-parent3 {
-    gap: var(--gap-7xl);
+    gap: 26px;
   }
 }

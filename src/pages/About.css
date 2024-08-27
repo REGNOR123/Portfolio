@@ -10,7 +10,7 @@
   align-self: stretch;
   height: 1px;
   position: relative;
-  border-top: 1px solid var(--color-darkslategray-300);
+  border-top: 1px solid #333;
   box-sizing: border-box;
 }
 .facebook7 {
@@ -40,7 +40,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-lg);
+  gap: 18px;
 }
 .all-right-reserved-container3 {
   align-self: stretch;
@@ -56,9 +56,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-12xs) 0 0;
+  padding: 1px 0 0;
   box-sizing: border-box;
-  color: var(--color-gray-500);
+  color: rgba(255, 255, 255, 0.8);
 }
 .social,
 .social-icons1 {
@@ -70,16 +70,16 @@
 .social-icons1 {
   flex: 1;
   justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: 20px;
   text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
-  font-family: var(--font-poppins);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Poppins;
 }
 .social {
   align-self: stretch;
   justify-content: flex-end;
-  padding: 0 var(--padding-38xl) 0 var(--padding-41xl);
+  padding: 0 57px 0 60px;
   box-sizing: border-box;
 }
 .about,
@@ -91,16 +91,16 @@
 .footer2 {
   align-self: stretch;
   align-items: flex-end;
-  gap: var(--gap-sm);
+  gap: 14px;
   max-width: 100%;
 }
 .about {
   width: 100%;
   position: relative;
-  background-color: var(--color-gray-200);
+  background-color: #222;
   overflow: hidden;
   align-items: flex-start;
-  padding: var(--padding-26xl) 0 var(--padding-3xl);
+  padding: 45px 0 22px;
   box-sizing: border-box;
   gap: 619px;
   line-height: normal;
@@ -108,8 +108,8 @@
 }
 @media screen and (max-width: 1050px) {
   .social {
-    padding-left: var(--padding-11xl);
-    padding-right: var(--padding-9xl);
+    padding-left: 30px;
+    padding-right: 28px;
     box-sizing: border-box;
   }
   .about {
