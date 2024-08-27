@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import "./GroupComponent.css";
 
-const GroupComponent = ({ className = "", frontEndSkills }) => {
+const GroupComponent = ({ className = "", frontEndSkills= "" }) => {
   return (
     <div className={`line-parent1 ${className}`}>
       <div className="frame-child3" />

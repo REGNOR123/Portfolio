@@ -4,13 +4,13 @@ import "./GroupComponent1.css";
 
 const GroupComponent1 = ({
   className = "",
-  propFlex,
-  propAlignSelf,
-  image14,
-  propHeight,
-  propWidth,
-  propWidth1,
-  uIUXDesign,
+  propFlex = "",
+  propAlignSelf = "",
+  image14 = "",
+  propHeight = "",
+  propWidth = "",
+  propWidth1 = "",
+  uIUXDesign = "",
 }) => {
   const groupDivStyle = useMemo(() => {
     return {
