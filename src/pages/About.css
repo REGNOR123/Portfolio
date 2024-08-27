@@ -1,0 +1,126 @@
+.about-child {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.footer-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+}
+.facebook7 {
+  margin: 0;
+}
+.facebook6,
+.instagram3,
+.youtube3 {
+  position: relative;
+  line-height: 30px;
+}
+.instagram3,
+.youtube3 {
+  text-decoration: none;
+  color: inherit;
+}
+.instagram3 {
+  display: inline-block;
+  min-width: 84px;
+}
+.youtube3 {
+  flex: 1;
+}
+.platform-icons {
+  width: 287px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.all-right-reserved-container3 {
+  align-self: stretch;
+  height: 30px;
+  position: relative;
+  line-height: 35px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.copyright1 {
+  width: 274px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-gray-500);
+}
+.social,
+.social-icons1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.social-icons1 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+  font-family: var(--font-poppins);
+}
+.social {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-38xl) 0 var(--padding-41xl);
+  box-sizing: border-box;
+}
+.about,
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer2 {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.about {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-26xl) 0 var(--padding-3xl);
+  box-sizing: border-box;
+  gap: 619px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .social {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .about {
+    gap: 309px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .social-icons1 {
+    flex-wrap: wrap;
+  }
+  .about {
+    gap: 155px;
+  }
+}

@@ -1,0 +1,118 @@
+.separator {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-top: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+}
+.facebook5 {
+  margin: 0;
+}
+.facebook4,
+.instagram2,
+.youtube2 {
+  position: relative;
+  line-height: 30px;
+}
+.instagram2,
+.youtube2 {
+  text-decoration: none;
+  color: inherit;
+}
+.instagram2 {
+  display: inline-block;
+  min-width: 84px;
+}
+.youtube2 {
+  flex: 1;
+}
+.social-icons {
+  width: 287px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.all-right-reserved-container2 {
+  align-self: stretch;
+  height: 30px;
+  position: relative;
+  line-height: 35px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.copyright {
+  width: 274px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-gray-500);
+}
+.links-container,
+.social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.links-container {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+  font-family: var(--font-poppins);
+}
+.social-links {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-38xl) 0 var(--padding-41xl);
+  box-sizing: border-box;
+}
+.footer1,
+.home1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer1 {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 13px;
+  max-width: 100%;
+}
+.home1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 56px 0 var(--padding-3xl);
+  box-sizing: border-box;
+  gap: 165px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .social-links {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .home1 {
+    gap: var(--gap-63xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .links-container {
+    flex-wrap: wrap;
+  }
+  .home1 {
+    gap: var(--gap-22xl);
+  }
+}
